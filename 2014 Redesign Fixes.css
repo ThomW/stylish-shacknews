@@ -1,0 +1,15 @@
+/*
+
+Shacknews 2014 Fixes
+
+Applies to: shacknews.com
+
+Fixes misc. broken things across Shacknews
+
+*/
+
+/* Fixes wrapping in the titles in the semi-featured boxes */
+.semi-featuredimg_wrapper h2 { line-height: 22px; }
+
+/* Fixes the font used for post authors */
+.postmeta .author { font-family: arial, helvetica, sans-serif; }

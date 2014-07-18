@@ -1,0 +1,22 @@
+/*
+
+Better Lightning Bolt
+
+Applies to: shacknews.com
+
+This replaces the default lightning bolt icon with a better one of my own design
+
+Author: ThomW
+
+*/
+
+html span.author .lightningbolt,
+.lightningbolt {
+   padding-left: 20px;
+   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAYAAACQN/8FAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAWPAAAFjwB9oveuwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAD4SURBVCiRbZGhTgNBEIa/u/YQpBAIJEWta3pcC4YEh8f1BUgwJARTWYtCIgkkCBQ8AA4eAIWqgBMQ2IKvIDiuP6JHd++4Pxmxs9/+MzsTSKKgl9Yic/UHoOFlT+uUFUUDUMfL3GHSs6Dg+N5dI8xegfk/f4i2McNxWHALJ8ce9AW1HmY4BnDgZ9ICHXjPbtBPk9HmMoDrccJJ4QyHBCxhVvYAXI+jbgLZDnCRg9eYdB+UASDJhY1vZWPJxlcSoX/noI/27hRqX0rTSv/Bx61INk5l18+rIEn5r1e/+8A95ukIyqvKJ8fbRpOABcxzvwqYSbaTVJUqxy+wzaMA8qBazQAAAABJRU5ErkJggg==);
+   background-position: 75% 2px;
+   background-repeat: no-repeat;
+}
+html span.author .lightningbolt { background-position: 75% 50% }
+#comments .lightningbolt img,
+.lightningbolt img { display: none; }
