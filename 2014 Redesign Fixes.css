@@ -13,3 +13,7 @@ Fixes misc. broken things across Shacknews
 
 /* Fixes the font used for post authors */
 .postmeta .author { font-family: arial, helvetica, sans-serif; }
+
+/* Removes underline from post author, unless on hover */
+.postmeta .author a:link { text-decoration: none; }
+.postmeta .author a:hover { text-decoration: underline; }
