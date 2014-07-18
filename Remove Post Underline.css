@@ -1,0 +1,3 @@
+/* Removes underline from post author, unless on hover */
+.postmeta .author a:link { text-decoration: none; }
+.postmeta .author a:hover { text-decoration: underline; }
