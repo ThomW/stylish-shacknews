@@ -14,3 +14,30 @@ Fixes misc. broken things across Shacknews
 /* Fixes the font used for post authors */
 .postmeta .author { font-family: arial, helvetica, sans-serif; }
 
+/* Fixes the stupid reliance on background images for thread lines (SPERG) */
+div.threads ul ul, div.threads ul ul li, div.threads ul ul li.last {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+div.threads ul ul {
+    border-left: 1px solid #333;
+    box-sizing: border-box;
+    position: relative;
+}
+div.threads ul ul li { position: relative; }
+div.threads ul ul li:after {
+    background-color: #333;
+    content: ' ';
+    display: block;
+    height: 1px;
+    left: -1px;
+    position: absolute;
+    top: 6.5px;
+    width: 13px;
+}
+div.threads ul ul li.last:after {
+    background-color: black;
+    border-top: 1px solid #333;
+    height: 100%;
+}
