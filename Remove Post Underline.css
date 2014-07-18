@@ -1,0 +1,17 @@
+/*
+
+Remove Post Underline
+
+Applies to: shacknews.com
+
+This removes the underline from the root-post's author, unless the user hovers over it.
+
+Yeah, I know it's a small thing, but that kinda bugs me.
+
+Author: Teiresias
+
+*/
+
+/* Removes underline from post author, unless on hover */
+.postmeta .author a:link { text-decoration: none; }
+.postmeta .author a:hover { text-decoration: underline; }
