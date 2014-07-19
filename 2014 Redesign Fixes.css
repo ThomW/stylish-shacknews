@@ -14,3 +14,7 @@ Fixes misc. broken things across Shacknews
 /* Fixes the font used for post authors */
 .postmeta .author { font-family: arial, helvetica, sans-serif; }
 
+/* fix for featured images not being zoomed when over text over image */
+.featuredimg_wrapper h2, .semi-featuredimg_wrapper h2{
+    pointer-events: none !important;
+}
