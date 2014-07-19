@@ -14,6 +14,11 @@ Fixes misc. broken things across Shacknews
 /* Fixes the font used for post authors */
 .postmeta .author { font-family: arial, helvetica, sans-serif; }
 
+/* fix for featured images not being zoomed when over text over image */
+.featuredimg_wrapper h2, .semi-featuredimg_wrapper h2 {
+	pointer-events: none !important;
+}
+
 /*make the banner 'menu buttons' 'work'*/
 div#banner .links a {margin-left: 15px; margin-right: 15px; } /* center text in div, instead of 30px on right as it currently is*/
 div#banner .links li:hover { background: #662d91; } /*purple news*/
